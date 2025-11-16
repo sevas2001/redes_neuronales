@@ -2,6 +2,11 @@
 
 Este repositorio contiene el código y los recursos del proyecto:
 
+Para iniciarlo, descarga el archivo ZIP de la carpeta "redes" y ábrela en Visual Studio Code (o el editor de tu preferencia). Tendrás a tu disposición todo el código fuente junto con los datos necesarios.
+Si deseas ver la aplicación en acción, simplemente ejecuta el archivo app.py.
+
+
+
 > **“Machine Learning para la predicción de supervivencia en pacientes oncológicos:  
 > Modelado, evaluación y desarrollo de una herramienta clínica interactiva”**
 
