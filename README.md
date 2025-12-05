@@ -2,9 +2,6 @@
 
 Este repositorio contiene el código y los recursos del proyecto:
 
-Para iniciarlo, descarga el archivo ZIP de la carpeta "redes" y ábrela en Visual Studio Code (o el editor de tu preferencia). Tendrás a tu disposición todo el código fuente junto con los datos necesarios.
-Si deseas ver la aplicación en acción, simplemente ejecuta el archivo app.py.
-
 
 
 > **“Machine Learning para la predicción de supervivencia en pacientes oncológicos:  
@@ -67,9 +64,11 @@ El objetivo principal es construir un sistema de apoyo a la decisión clínica c
 
 ## 💻 Aplicación web (Dash)
 
+(La aplicación a sido subida a una web al que se puede acceder desde este enlace)
+:  https://huggingface.co/spaces/sevas14/redes_neurnales_oncologia
 El archivo `app.py` implementa una aplicación web con:
 
-- Formulario para introducir ~20 variables clínicas (10 numéricas y 10 categóricas).
+- Dentro la app se encuentran todos los pacientes, con el buscador encontraras el paceintes con las caracteristicas buscadas.
 - Preprocesado interno que replica el pipeline usado en entrenamiento.
 - Cálculo de la **probabilidad de supervivencia** usando el modelo MLP.
 - Visualización del riesgo:
